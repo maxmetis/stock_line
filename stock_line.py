@@ -66,6 +66,6 @@ def lineNotifyMessage(token, msg):
    return r.status_code
 	
 message = '\n' + stock + '即時價格：' + price + ' ; ' + change
-token = 'wtxiy16rGmEC7iewybsllLPX5re9dpujK8N7PBuj5NM'
+token = '*****'
 
 lineNotifyMessage(token, message)
